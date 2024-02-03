@@ -2,13 +2,13 @@ name: testing
 run-name: ${{ github.actor }} is testing sst-example
 on: [push]
 jobs:
-  check-bats-version:
+  test-cases:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "20"
       - name: Intalling Dependencies
         run: npm install
       - name: Running Tests
