@@ -1,8 +1,8 @@
-name: testing
-run-name: ${{ github.actor }} is testing sst-example
+name: deploy-to-aws
+run-name: ${{ github.actor }} is deploying to AWS
 on: [push]
 jobs:
-  test-cases:
+  deployment:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
