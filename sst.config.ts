@@ -5,7 +5,7 @@ export default {
   config(_input) {
     return {
       name: "sst-example",
-      region: "us-south-1",
+      region: "ap-south-1",
     };
   },
   stacks(app) {
