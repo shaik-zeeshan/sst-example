@@ -41,3 +41,12 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 bunx.lock
+
+# sst
+.sst
+
+# open-next
+.open-next
+
+# Environment Variables
+.env
